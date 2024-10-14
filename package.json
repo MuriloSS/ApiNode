@@ -1,0 +1,19 @@
+{
+  "name": "apinode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "Murilo de Santana Santos",
+  "license": "MIT",
+  "description": "linkDaAula -> https://youtu.be/qFmwRriNJWs",
+  "dependencies": {
+    "apinode": "file:",
+    "express": "^4.21.1"
+  }
+}
